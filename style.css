@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fdfcfc;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.paragraph {
+    margin-bottom: 20px;
+}
+
+.paragraph img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.settings {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #9146f9;
+    padding: 10px;
+    border-radius: 5px;
+}
